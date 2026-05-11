@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>My Table</h1>
+    <table border="2">
+        <caption>Laptop items</caption>
+        <colgroup>
+            <col style="background-color: aqua;">
+            <col style="background-color: lightgray;">
+            <col style="background-color: antiquewhite;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>laptop</td>
+                <td>3</td>
+                <td>90000</td>
+            </tr>
+            <tr>
+                <td>mouse</td>
+                <td>5</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td>keyboard</td>
+                <td>10</td>
+                <td>2000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2">Totalprice</th>
+                <td>11200</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <br>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input  id = "name"type="text" placeholder="enter your name">
+            <label for="email">Email:</label>
+            <input  id = "email"type="email" placeholder="enter your email">
+        </fieldset>
+    
+    <label for="course">Course:</label>
+    <select name="" id="course">
+    <optgroup label="tech">
+    <option value="bca">Bca</option>
+    <option value="btech">Btech</option>
+    <option value="mtech">Mtech</option>
+    </optgroup>
+    <optgroup label="nontech">
+    <option value="commerce">Commerce</option>
+    <option value="arts">Arts</option>
+    <option value="politics">Politics</option>
+    </optgroup>
+    </select>
+    <br>
+    <br>
+    <label for="reviews">Reviews:</label>
+    <textarea id="reviews" ></textarea>
+    <button>submitform</button>
+
+
+    </form>
+</body>
+</html>

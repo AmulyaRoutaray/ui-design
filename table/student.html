@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student registration form</h1>
+    <form >
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label><br>
+            <input  id = "name"type="text" placeholder="enter your name"><br>
+            <br>
+            <label for="email">Email:</label><br>
+            <input  id = "email"type="email" placeholder="enter your email"><br>
+            <br>
+            <label for="mobile">mobile:</label><br>
+            <input  id = "mobile"type="tel" placeholder="enter your mobile number"><br>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Address information</legend>
+            <label for="at">At:</label><br>
+            <input  id = "at"type="text" placeholder="enter your address"><br>
+            <br>
+            <label for="policestation">Policestation:</label>
+            <input  id = "policestation"type="text" placeholder="enter your policestation address"><br>
+            <br>
+            <label for="dist">Dist:</label>
+            <input  id = "dist"type="text" placeholder="enter your district address"><br>
+            <br>
+            <label for="pincode">Pincode:</label>
+            <input  id = "pincode"type="text" placeholder="enter your pincode">  <label for="state">State:</label>
+            <input  id = "state"type="text" placeholder="enter your state">
+        </fieldset>
+        <label for="courses">Select courses:</label>
+        <select  id="courses">
+           <optgroup label="fronted">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+           </optgroup>
+           <optgroup label="Backend">
+            <option value="Python">Python</option>
+            <option value="Node.js">Node.js</option>
+            <option value="Java">Java</option>
+           </optgroup>
+        </select>
+    </form>
+    <br>
+    <br>
+    <button>submitform</button>
+</body>
+</html>
